@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<DialougDataBase xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <list>
+    <DialougEntry>
+      <characterName>Banshee</characterName>
+      
+      <soundName>AAA</soundName>
+      
+      <talkType>LeftRightDouble</talkType>
+      
+      <talkPos>Right</talkPos>
+      
+      <characterDialoug>
+        
+        <string>Hi</string>
+      </characterDialoug>
+    
+    </DialougEntry>
+    <!--我是分隔線-->
+    <DialougEntry>
+      <characterName>Koikrabe</characterName>
+
+      <soundName>AAA</soundName>
+
+      <talkType>LeftRightDouble</talkType>
+
+      <talkPos>Left</talkPos>
+
+      <characterDialoug>
+
+        <string>Hi,I want to ask you how to gain reputation?</string>
+
+
+      </characterDialoug>
+
+    </DialougEntry>
+    <!--我是分隔線-->
+    <DialougEntry>
+      <characterName>Banshee</characterName>
+
+      <soundName>AAA</soundName>
+
+      <talkType>LeftRightDouble</talkType>
+
+      <talkPos>Right</talkPos>
+
+      <characterDialoug>
+
+        <string>First you need to know... People who don't interact with others is difficult to success,all you need to do is to bribe those fucking cunts.</string>
+        <string>Or... Find true friend that have same interest like you.</string>
+      </characterDialoug>
+
+    </DialougEntry>
+    <DialougEntry>
+      <characterName>Koikrabe</characterName>
+
+      <soundName>AAA</soundName>
+
+      <talkType>LeftRightDouble</talkType>
+
+      <talkPos>Left</talkPos>
+
+      <characterDialoug>
+
+        <string>OK,I See.</string>
+        <string>Thanks.</string>
+      </characterDialoug>
+
+    </DialougEntry>
+  </list>
+</DialougDataBase>
