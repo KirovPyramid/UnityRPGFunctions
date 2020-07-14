@@ -18,6 +18,8 @@ public class DialogueFunction : MonoBehaviour
 
     public Text DialogueBoxText;                                                //The Dialogue Box Text
 
+    public Text CharacterName;                                                //The Dialogue Box Text
+
     private int dialogueNumber = 0;                                             //Record Current Dialogue Number
 
     private int partNumber = 0;                                                 //Record Current Part Number(Change it when switch character)
@@ -88,6 +90,8 @@ public class DialogueFunction : MonoBehaviour
 
     void LoadCharacterDialogue()
     {
+       
+
         if (partNumber+1> dialoguedata.list.Count - 1&& dialogueNumber > dialoguedata.list[partNumber].characterDialoug.Count - 1)
         {
             Debug.Log("The part is ended");
@@ -102,8 +106,9 @@ public class DialogueFunction : MonoBehaviour
             AdjustCharacterPosition(partNumber);
             dialogueNumber = 0;
         }
-
+        CharacterName.text = dialoguedata.list[partNumber].characterName;
         DialogueBoxText.text = dialoguedata.list[partNumber].characterDialoug[dialogueNumber];
+        //Maybe in future we can Play Sound or animation here.
         //Debug.Log(partNumber);
     }
 }
