@@ -12,7 +12,7 @@
       
       <characterDialoug>
         
-        <string>Hi</string>
+        <string>OK,now let's training how to elimate enemy.</string>
       </characterDialoug>
     
     </DialougEntry>
@@ -28,7 +28,7 @@
 
       <characterDialoug>
 
-        <string>Hi,I want to ask you how to gain reputation?</string>
+        <string>OK</string>
 
 
       </characterDialoug>
@@ -46,8 +46,8 @@
 
       <characterDialoug>
 
-        <string>First you need to know... People who don't interact with others is difficult to success,all you need to do is to bribe those fucking cunts.</string>
-        <string>Or... Find true friend that have same interest like you.</string>
+        <string>First you need to know... How to use your ablilty properly.</string>
+        <string>Or... Just fire on the enemy without care.</string>
       </characterDialoug>
 
     </DialougEntry>
@@ -61,11 +61,27 @@
       <talkPos>Left</talkPos>
 
       <characterDialoug>
-
         <string>OK,I See.</string>
         <string>Thanks.</string>
       </characterDialoug>
 
     </DialougEntry>
+    
+   <DialougEntry>
+      <characterName>Koikrabe</characterName>
+
+      <soundName>AAA</soundName>
+
+      <talkType>CenterOne</talkType>
+
+      <talkPos>Left</talkPos>
+
+      <characterDialoug>
+        <string>I See.</string>
+        <string>I'll try it.</string>
+      </characterDialoug>
+
+    </DialougEntry>
+  
   </list>
 </DialougDataBase>

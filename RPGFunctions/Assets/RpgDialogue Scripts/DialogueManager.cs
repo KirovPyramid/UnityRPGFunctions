@@ -20,7 +20,7 @@ public class DialogueManager : MonoBehaviour
     public void SaveDialogues()
     {
         XmlSerializer serializer = new XmlSerializer(typeof(DialougDataBase));
-        FileStream fileStream = new FileStream(Application.dataPath+"/StreamingFiles/XML/Dialoug_data.xml",FileMode.Create);
+        FileStream fileStream = new FileStream(Application.streamingAssetsPath + "/XML/Dialoug_data.xml",FileMode.Create);
         serializer.Serialize(fileStream, DialougDB);
         fileStream.Close();
     }
@@ -28,7 +28,7 @@ public class DialogueManager : MonoBehaviour
     public void LoadDrama(string dramaScriptName)
     {
         XmlSerializer serializer = new XmlSerializer(typeof(DialougDataBase));
-        FileStream fileStream = new FileStream(Application.dataPath + "/StreamingFiles/XML/"+ dramaScriptName + ".xml", FileMode.Open);
+        FileStream fileStream = new FileStream(Application.streamingAssetsPath + "/XML/"+ dramaScriptName + ".xml", FileMode.Open);
         DialougDB = serializer.Deserialize(fileStream) as DialougDataBase;
         fileStream.Close();
 
@@ -39,7 +39,7 @@ public class DialogueManager : MonoBehaviour
     [System.Serializable]
     public class DialougEntry
     {
-        public string characterName;
+        public string characterName;         
         public string soundName;
         public talkingType talkType;
         public talkingPos talkPos;
@@ -62,4 +62,5 @@ public class DialogueManager : MonoBehaviour
         Left,
         Right,
     }
+
 }
