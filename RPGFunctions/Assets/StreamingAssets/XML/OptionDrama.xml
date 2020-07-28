@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<DialougDataBase xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <list>
+    
+    <DialougEntry>
+      <characterName>Cat</characterName>
+      <talkType>Options</talkType>
+      <talkPos>Left</talkPos>
+      <characterDialoug>
+        <string>要選哪個</string>
+        <string>要選哪個</string>
+        <string>要選哪個</string>
+      </characterDialoug>
+      <dialougSoundName>
+        <string>crrect_answer1</string>
+        <string>crrect_answer1</string>
+        <string>crrect_answer1</string>
+      </dialougSoundName>
+      <dramaOption>
+        <string>OptionA(同樣的選項劇本)</string>
+        <string>OptionB(雙人對話劇本)</string>
+        <string>OptionC(單人對話劇本)</string>
+      </dramaOption>
+      <OptionLoadDramaName>
+        <string>OptionDrama</string>
+        <string>NormalDoubleTalkDrama</string>
+        <string>NormalCenterTalkDrama</string>
+      </OptionLoadDramaName>
+    </DialougEntry>
+  </list>
+</DialougDataBase>

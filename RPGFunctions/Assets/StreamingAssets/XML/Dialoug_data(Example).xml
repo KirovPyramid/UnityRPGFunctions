@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<DialougDataBase xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <list>
+    <DialougEntry>
+      
+      <characterName>"在這裡指定角色名"</characterName>
+      
+      <talkType>CenterOne</talkType>
+      <!---->對話模式
+      
+      <talkPos>Left</talkPos>
+      <!---->角色站位(雙人對話使用)
+
+      <characterDialoug>
+        <string>角色台詞1</string>
+        <string>角色台詞2，以此類推</string>
+      </characterDialoug>
+      <dialougSoundName>
+        <string>台詞1的聲音</string>
+        <string>台詞2的聲音</string>
+      </dialougSoundName>
+      <dramaOption>
+        <string>"選項名稱1，有幾個選項就要對應幾個劇本名"</string>
+        <string>"選項名稱2，有幾個選項就要對應幾個劇本名"</string>
+      </dramaOption>
+      <OptionLoadDramaName>
+        <string>"選項要載入的劇本名稱，依序對應選項1"</string>
+        <string>"選項要載入的劇本名稱，依序對應選項2"</string>
+      </OptionLoadDramaName>
+      
+    </DialougEntry>
+    <!---->這樣就是一個Part了，目前是設計成如果要換角色就換Part，所以角色一句句對嘴會讓劇本有點繁雜。
+  </list>
+</DialougDataBase>

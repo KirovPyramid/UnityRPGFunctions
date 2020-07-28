@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<DialougDataBase xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <list>
+    
+    <DialougEntry>
+      <characterName>Cat</characterName>
+      <talkType>CenterOne</talkType>
+      <talkPos>Left</talkPos>
+      <characterDialoug>
+        <string>meow</string>
+        <string>meow1</string>
+        <string>meow2</string>
+      </characterDialoug>
+      <dialougSoundName>
+        <string>meow</string>
+        <string>meow</string>
+        <string>meow</string>
+      </dialougSoundName>
+      <dramaOption>
+        <string>"選項名稱"</string>
+      </dramaOption>
+      <OptionLoadDramaName>
+        <string>"選項要載入的劇本名稱，"</string>
+      </OptionLoadDramaName>
+    </DialougEntry>
+  </list>
+</DialougDataBase>
