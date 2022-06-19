@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: c3f34c00f354d2d4aa14a2b8cc404729
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 161420796176408018
+    second: Nachelle(Day)_0
+  - first:
+      213: -5902669520058051070
+    second: Nachelle(Day)_1
+  - first:
+      213: 3042481204321656201
+    second: Nachelle(Day)_2
+  - first:
+      213: -2720565559187589168
+    second: Nachelle(Day)_3
+  - first:
+      213: -5899150318329292209
+    second: Nachelle(Day)_4
+  - first:
+      213: -4198621450609276945
+    second: Nachelle(Day)_5
+  - first:
+      213: -6477472458307831662
+    second: Nachelle(Day)_6
+  - first:
+      213: -9032881649854355748
+    second: Nachelle(Day)_7
+  - first:
+      213: 4251986836288822695
+    second: Nachelle(Day)_8
+  - first:
+      213: 8985044126181793607
+    second: Nachelle(Day)_9
+  - first:
+      213: 706840507913338835
+    second: Nachelle(Day)_10
+  - first:
+      213: -4284271068167061899
+    second: Nachelle(Day)_11
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Nachelle(Day)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 265
+        width: 79
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e647df6d1edebc7449ffddfbf82c5221
+      internalID: 161420796176408018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nachelle(Day)_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 264
+        width: 79
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e73fb6c3fcf0cd45aea4dceeeade0c1
+      internalID: -5902669520058051070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nachelle(Day)_2
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 268
+        width: 105
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed23e3e2d354624c9d8dd5605797a7a
+      internalID: 3042481204321656201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nachelle(Day)_3
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 266
+        width: 105
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b62248a5b287ad45b35845a2bcbe0c3
+      internalID: -2720565559187589168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nachelle(Day)_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 137
+        width: 82
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf841f6b5239024f90a78142ccd3df9
+      internalID: -5899150318329292209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nachelle(Day)_5
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 136
+        width: 82
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbdb647e62485594fab25049f942d077
+      internalID: -4198621450609276945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nachelle(Day)_6
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 134
+        width: 110
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c744dc5dcc299f548b01f5f9b1ea0968
+      internalID: -6477472458307831662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nachelle(Day)_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 82
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9170a782070b3e24aac4e10cc1ea320a
+      internalID: -9032881649854355748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nachelle(Day)_8
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 2
+        width: 82
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d7d5ad711543c42a1faa67e657cf8a
+      internalID: 4251986836288822695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nachelle(Day)_9
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 2
+        width: 106
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48060bfcbbd21f14ba2d0bc5ad46fa26
+      internalID: 8985044126181793607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nachelle(Day)_10
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 0
+        width: 103
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f285d3c0d966b74b85c995a29c34f14
+      internalID: 706840507913338835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nachelle(Day)_11
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 134
+        width: 105
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee347f907264c0f4881542ec8529ace8
+      internalID: -4284271068167061899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

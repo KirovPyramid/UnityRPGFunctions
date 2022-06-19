@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7335966111049831795
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7335966111049831799}
+  - component: {fileID: 7335966111049831792}
+  - component: {fileID: 7335966111049831793}
+  - component: {fileID: 7335966111049831794}
+  m_Layer: 5
+  m_Name: MenuManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7335966111049831799
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7335966111049831795}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.21851851, y: 0.21851851, z: 0.21851851}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 1004.4915, y: 540}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &7335966111049831792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7335966111049831795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e52a90cd38367d4695c0c88a3e3737e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Menu: {fileID: 0}
+  Window: {fileID: 0}
+  ConfirmWindow: {fileID: 0}
+  statusPage: {fileID: 0}
+  itemBag: {fileID: 0}
+  memoryBag: {fileID: 0}
+  setting: {fileID: 0}
+  exit: {fileID: 0}
+  SavingPage: {fileID: 0}
+--- !u!114 &7335966111049831793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7335966111049831795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adce5e096a43a86479caaa8b3cb5a32b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite_items:
+  - {fileID: 21300000, guid: d32623e820a539a409717076584b91bb, type: 3}
+  - {fileID: 21300000, guid: 6ef18077d3fe4974c8f5da15fcfc17d7, type: 3}
+  - {fileID: 21300000, guid: 8d621703238c1c347b084d546e24c0bc, type: 3}
+  - {fileID: 21300000, guid: 5ebc8c475bd16db4ab312951f80aeaec, type: 3}
+  - {fileID: 21300000, guid: fd109b94d48752e4bab36ba6d72af04f, type: 3}
+  - {fileID: 21300000, guid: d32623e820a539a409717076584b91bb, type: 3}
+  - {fileID: 21300000, guid: 6ef18077d3fe4974c8f5da15fcfc17d7, type: 3}
+  - {fileID: 21300000, guid: 8d621703238c1c347b084d546e24c0bc, type: 3}
+  - {fileID: 21300000, guid: 5ebc8c475bd16db4ab312951f80aeaec, type: 3}
+  - {fileID: 21300000, guid: fd109b94d48752e4bab36ba6d72af04f, type: 3}
+  sprite_memories:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  sprite_CGs:
+  - {fileID: 21300000, guid: aa9aaace03ad74b48b71c2ae6d154e6f, type: 3}
+  - {fileID: 21300000, guid: 6de2f78ceb0c4e8438551442bb883eb4, type: 3}
+  - {fileID: 21300000, guid: f369200133000d741a01e60d4d8b2f88, type: 3}
+  - {fileID: 21300000, guid: 9cdb31e2234f9944897dc934b47d28da, type: 3}
+  - {fileID: 21300000, guid: 5353fdc77bba32c47847aee29ae85790, type: 3}
+  - {fileID: 21300000, guid: b69a9d5ec5bc422488d0c05356ccb2ef, type: 3}
+  - {fileID: 21300000, guid: 4ce7884327487634bad8ff9f3dbb4697, type: 3}
+  sprite_CGs_common:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  menuState: 0
+  mood: 0
+--- !u!114 &7335966111049831794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7335966111049831795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cc5f9ae59ac3ac419548be05a93bf7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

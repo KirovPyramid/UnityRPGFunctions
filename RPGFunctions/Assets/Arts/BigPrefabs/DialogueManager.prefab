@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2453566002778868340
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2453566002778868345}
+  - component: {fileID: 2453566002778868346}
+  - component: {fileID: 2453566002778868347}
+  m_Layer: 0
+  m_Name: DialogueManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2453566002778868345
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2453566002778868340}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2453566002778868346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2453566002778868340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 554e251399ce07243b2610e12413ac7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartLoadDramaName: NachelleTalkTest
+  DialougDB:
+    list: []
+--- !u!114 &2453566002778868347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2453566002778868340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c4950184992aff49a62d99cafdb3f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  optionButtonPrefab: {fileID: 6381849008859171437, guid: 642c4701d2dc0f547815499048599a4d,
+    type: 3}
+  optionButtonGroup: {fileID: 0}
+  optionButtonGroupBK: {fileID: 0}
+  optionButtonPrefabs: []
+  cL2DImg: {fileID: 0}
+  cImg: {fileID: 0}
+  TextFrame: {fileID: 0}
+  TextFrameNoAngle: {fileID: 0}
+  LeftCharacterModel: {fileID: 0}
+  RightCharacterModel: {fileID: 0}
+  DialogueBox: {fileID: 0}
+  DialogueArrow: {fileID: 0}
+  DialogueBoxText: {fileID: 0}
+  CharacterName: {fileID: 0}
+  audioPlayer: {fileID: 0}
